@@ -1,0 +1,245 @@
+.sign-up-container {
+	border: 1px solid;
+	border-color: #9a9a9a;
+	background: #fff;
+	border-radius: 4px;
+	padding: 10px;
+	width: 350px;
+	margin: 50px auto;
+}
+
+.page-header {
+	float: right;
+}
+
+.login-signup {
+	margin: 10px;
+	text-decoration: none;
+	float: right;
+}
+
+.login-signup a {
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.signup-heading {
+	font-size: 2em;
+	font-weight: bold;
+	padding-top: 60px;
+	text-align: center;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.row {
+	margin: 15px 0px;
+	text-align: center;
+}
+
+.form-label {
+	margin-bottom: 5px;
+	text-align: left;
+}
+
+input.input-box-330 {
+	width: 250px;
+}
+
+.sign-up-container .error {
+	color: #ee0000;
+	padding: 0px;
+	background: none;
+	border: #ee0000;
+}
+
+.sign-up-container .error-field {
+	border: 1px solid #d96557;
+}
+
+.sign-up-container .error:before {
+	content: '*';
+	padding: 0 3px;
+	color: #D8000C;
+}
+
+.error-msg {
+	padding-top: 10px;
+	color: #D8000C;
+	text-align: center;
+}
+
+.success-msg {
+    padding-top: 10px;
+	color: #176701;
+	text-align: center;
+}
+
+input.btn {
+	width: 250px
+}
+
+.signup-align {
+	margin: 0 auto;
+}
+
+.page-content {
+	font-weight: bold;
+	padding-top: 60px;
+	text-align: center;
+}
+
+  *,
+  *::after,
+  *::before {
+      margin: 0;
+      padding: 0;
+      box-sizing: inherit;
+  }
+
+  ::-webkit-scrollbar {
+      height: 6px;
+      /* height of horizontal scrollbar ← You're missing this */
+      width: 4px;
+      scroll-behavior: smooth;
+      transition: 0.3s ease;
+  }
+
+  ::-webkit-scrollbar-track {
+      scroll-behavior: smooth;
+      border-radius: 0;
+      transition: 0.3s ease;
+  }
+
+  ::-webkit-scrollbar-thumb {
+      border-radius: 0;
+      transition: 0.3s ease;
+  }
+
+  html {
+      font-size: 69.5%;
+      scroll-behavior: smooth;
+      transition: 0.3s ease;
+  }
+.inline-flex{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+      flex-direction: column;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+   
+    }
+    .container{
+           width: 77%;
+           margin: auto 0;
+           background-color: #fff;
+           padding-top: 4rem;
+           padding-bottom: 4rem;
+           border-radius: 5px;
+           border: none;
+           margin-left: auto;
+           margin-right: auto;
+    
+        }
+                  ul {
+                  padding-top: 2rem;
+                  text-decoration: none;
+        list-style: none;
+                  }
+                  li  {
+                     padding-top: 2rem;
+                    text-decoration: none;
+                    list-style: none;
+                 }
+        
+
+
+  body {
+      text-rendering: optimizeLegibility;
+      width: 100%;
+      margin: 0;
+      background-color: whitesmoke;
+      padding: 0;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: center;
+
+  }
+
+  a {
+      text-decoration: none;
+      cursor: pointer;
+      list-style:none;
+      
+  }
+ footer{
+   width: 100%;
+   text-align: center;
+   margin-top: 2rem;
+}
+
+
+  body,
+  html {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+  }
+
+    form{
+   width: 77%;
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+   background-color: white;
+   margin-left: auto;
+   margin-right: auto;
+   border: none;
+
+}
+  
+  
+    .inline{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: start;
+
+    }
+    .links{
+        padding-top: 1rem;
+    }
+        input[type=submit] {
+            width: 48%;
+            padding: 12px;
+            border-radius: 4px;
+            border: none;
+            background-color: lightgreen;
+            margin: 1rem;
+            transition: 0.2s ease;
+            cursor: pointer;
+    
+    
+        }
+                  input[type=submit]:hover {
+                  
+                      background-color: skyblue;
+                      color: black;
+               
+        
+        
+                  }
+
+    header{
+        background-color: yellowgreen;
+        opacity: 2;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        color: #fff;
+    }
